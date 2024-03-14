@@ -1,0 +1,39 @@
+
+    .saved-conversions-container {
+    margin:10px;
+    padding:5px 25px 10px 0px;
+    color:#6a6a6a
+    }
+  .saved-conversions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .saved-conversion-item {
+    display: flex;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  .saved-conversion-item button {
+    margin-left: auto;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 767px) {
+    .saved-conversions {
+      justify-content: center;
+    }
+  
+    .saved-conversion-item {
+      width: 100%;
+    }
+  }
+  

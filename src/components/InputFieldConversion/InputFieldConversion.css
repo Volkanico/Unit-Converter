@@ -1,0 +1,17 @@
+.custom-select {
+    border: none;
+    background-color: transparent; 
+    border-bottom: 1px solid white;
+    padding: 5px;
+    color: white;
+    font-size: 16px; 
+}
+
+.custom-select[type=number]::-webkit-inner-spin-button, 
+.custom-select[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+.unitlabel {
+    margin-top: 7px;
+}

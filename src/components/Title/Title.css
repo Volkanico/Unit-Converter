@@ -1,0 +1,9 @@
+.header { 
+    display: flex;
+    justify-content:baseline;
+    align-items: center;
+    padding:10px;
+}
+.title {
+    margin:0px 0px 0px 10px;
+}

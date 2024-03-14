@@ -1,0 +1,30 @@
+.resultParent {
+    display: flex;
+    align-items: center;
+    margin-right:80px;
+    
+  }
+
+  @media (max-width: 768px) {
+    .input-container {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    .resultParent {
+      display: flex;
+      align-items: center;
+      margin-right:30px;
+      
+    }
+  }
+  
+  .resultNumber {
+    font-size: 1.5rem; 
+    font-weight: bold;
+  }
+  
+  .resultType {
+    margin-top:5px;
+    margin-left: 5px;
+  }
+  
